@@ -14,6 +14,6 @@ void setup(){
 
 void loop(){
   Serial.print("Nilai TCNT1 = ");
-  Serial.println(TCNT2,HEX);
+  Serial.println(TCNT2,DEC);
   delay(100);
 }
